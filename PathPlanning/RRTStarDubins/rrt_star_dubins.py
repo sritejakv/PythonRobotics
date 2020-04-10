@@ -25,7 +25,7 @@ try:
 except ImportError:
     raise
 
-show_animation = True
+show_animation = False
 
 
 class RRTStarDubins(RRTStar):
@@ -45,7 +45,7 @@ class RRTStarDubins(RRTStar):
 
     def __init__(self, start, goal, obstacle_list, rand_area,
                  goal_sample_rate=10,
-                 max_iter=200,
+                 max_iter=50,
                  connect_circle_dist=50.0
                  ):
         """

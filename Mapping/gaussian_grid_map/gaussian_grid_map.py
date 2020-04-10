@@ -13,7 +13,7 @@ from scipy.stats import norm
 
 EXTEND_AREA = 10.0  # [m] grid map extention length
 
-show_animation = True
+show_animation = False
 
 
 def generate_gaussian_grid_map(ox, oy, xyreso, std):

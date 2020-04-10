@@ -10,7 +10,7 @@ from Quadrotor import Quadrotor
 from TrajectoryGenerator import TrajectoryGenerator
 from mpl_toolkits.mplot3d import Axes3D
 
-show_animation = True
+show_animation = False
 
 # Simulation parameters
 g = 9.81

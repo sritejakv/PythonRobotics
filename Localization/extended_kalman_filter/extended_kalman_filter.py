@@ -27,7 +27,7 @@ GPS_NOISE = np.diag([0.5, 0.5]) ** 2
 DT = 0.1  # time tick [s]
 SIM_TIME = 50.0  # simulation time [s]
 
-show_animation = True
+show_animation = False
 
 
 def calc_input():

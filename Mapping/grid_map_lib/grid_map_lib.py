@@ -218,7 +218,7 @@ class GridMap:
         return heat_map
 
 
-def test_polygon_set():
+def polygon_set():
     ox = [0.0, 20.0, 50.0, 100.0, 130.0, 40.0]
     oy = [0.0, -20.0, 0.0, 30.0, 60.0, 80.0]
 
@@ -232,7 +232,7 @@ def test_polygon_set():
     plt.grid(True)
 
 
-def test_position_set():
+def position_set():
     grid_map = GridMap(100, 120, 0.5, 10.0, -0.5)
 
     grid_map.set_value_from_xy_pos(10.1, -1.1, 1.0)
@@ -248,10 +248,10 @@ def test_position_set():
 def main():
     print("start!!")
 
-    test_position_set()
-    test_polygon_set()
+    position_set()
+    polygon_set()
 
-    plt.show()
+    # plt.show()
 
     print("done!!")
 

@@ -18,7 +18,7 @@ dt = 0.1  # [s]
 L = 2.9  # [m] wheel base of vehicle
 
 
-show_animation = True
+show_animation = False
 
 
 class State:

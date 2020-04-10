@@ -35,7 +35,7 @@ W_NU = 1e5  # virtual control
 solver = 'ECOS'
 verbose_solver = False
 
-show_animation = True
+show_animation = False
 
 
 class Rocket_Model_6DoF:

@@ -55,7 +55,7 @@ MAX_SPEED = 55.0 / 3.6  # maximum speed [m/s]
 MIN_SPEED = -20.0 / 3.6  # minimum speed [m/s]
 MAX_ACCEL = 1.0  # maximum accel [m/ss]
 
-show_animation = True
+show_animation = False
 
 
 class State:

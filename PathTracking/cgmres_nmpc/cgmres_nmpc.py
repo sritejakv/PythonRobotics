@@ -20,7 +20,7 @@ PHI_V = 0.01
 PHI_OMEGA = 0.01
 WB = 0.25  # [m] wheel base
 
-show_animation = True
+show_animation = False
 
 
 def differential_model(v, yaw, u_1, u_2):
@@ -564,7 +564,7 @@ def animation(plant, controller, dt):
 def main():
     # simulation time
     dt = 0.1
-    iteration_time = 150.0  # [s]
+    iteration_time = 10.0  # [s]
 
     init_x = -4.5
     init_y = -2.5

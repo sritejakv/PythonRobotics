@@ -18,7 +18,7 @@ N_ITERATIONS = 10000
 WAIT_FOR_NEW_GOAL = 1
 MOVING_TO_GOAL = 2
 
-show_animation = True
+show_animation = False
 
 
 def main():  # pragma: no cover

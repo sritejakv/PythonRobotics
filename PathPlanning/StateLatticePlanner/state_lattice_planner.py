@@ -31,7 +31,7 @@ except:
 
 table_path = os.path.dirname(os.path.abspath(__file__)) + "/lookuptable.csv"
 
-show_animation = True
+show_animation = False
 
 
 def search_nearest_one_from_lookuptable(tx, ty, tyaw, lookup_table):

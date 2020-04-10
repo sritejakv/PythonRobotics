@@ -11,7 +11,7 @@ import math
 import random
 import numpy as np
 
-show_animation = True
+show_animation = False
 
 
 def circle_fitting(x, y):

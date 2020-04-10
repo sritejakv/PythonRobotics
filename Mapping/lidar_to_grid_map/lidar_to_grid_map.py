@@ -213,7 +213,7 @@ def main():
     bottom, top = plt.ylim()  # return the current ylim
     plt.ylim((top, bottom)) # rescale y axis, to match the grid orientation
     plt.grid(True)
-    plt.show()
+    # plt.show()
 
         
 if __name__ == '__main__':

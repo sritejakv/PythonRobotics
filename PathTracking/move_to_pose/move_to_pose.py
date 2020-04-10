@@ -19,7 +19,7 @@ Kp_alpha = 15
 Kp_beta = -3
 dt = 0.01
 
-show_animation = True
+show_animation = False
 
 
 def move_to_pose(x_start, y_start, theta_start, x_goal, y_goal, theta_goal):

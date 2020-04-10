@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import scipy.special
 
-show_animation = True
+show_animation = False
 
 
 def calc_4points_bezier_path(sx, sy, syaw, ex, ey, eyaw, offset):

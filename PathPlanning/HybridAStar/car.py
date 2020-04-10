@@ -100,4 +100,4 @@ if __name__ == '__main__':
     x, y, yaw = 0., 0., 1.
     plt.axis('equal')
     plot_car(x, y, yaw)
-    plt.show()
+    # plt.show()

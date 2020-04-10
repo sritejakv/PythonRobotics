@@ -10,7 +10,7 @@ import math
 import matplotlib.pyplot as plt
 import numpy as np
 
-show_animation = True
+show_animation = False
 
 
 def mod2pi(theta):
@@ -298,7 +298,7 @@ def main():
         plt.show()
 
 
-def test():
+def preface():
 
     NTEST = 5
 
@@ -338,5 +338,5 @@ def test():
 
 
 if __name__ == '__main__':
-    test()
+    preface()
     main()

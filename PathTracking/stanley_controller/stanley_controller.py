@@ -26,7 +26,7 @@ dt = 0.1  # [s] time difference
 L = 2.9  # [m] Wheel base of vehicle
 max_steer = np.radians(30.0)  # [rad] max steering angle
 
-show_animation = True
+show_animation = False
 
 
 class State(object):

@@ -29,7 +29,7 @@ LM_SIZE = 2  # LM srate size [x,y]
 N_PARTICLE = 100  # number of particle
 NTH = N_PARTICLE / 1.5  # Number of particle for re-sampling
 
-show_animation = True
+show_animation = False
 
 
 class Particle:

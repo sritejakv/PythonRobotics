@@ -18,7 +18,7 @@ try:
 except ImportError:
     raise
 
-do_animation = True
+do_animation = False
 
 
 class SweepSearcher:
@@ -279,12 +279,12 @@ def planning_animation(ox, oy, reso):  # pragma: no cover
             plt.grid(True)
             plt.pause(0.1)
 
-    plt.cla()
-    plt.plot(ox, oy, "-xb")
-    plt.plot(px, py, "-r")
-    plt.axis("equal")
-    plt.grid(True)
-    plt.pause(0.1)
+    # plt.cla()
+    # plt.plot(ox, oy, "-xb")
+    # plt.plot(px, py, "-r")
+    # plt.axis("equal")
+    # plt.grid(True)
+    # plt.pause(0.1)
 
 
 def main():  # pragma: no cover
@@ -305,7 +305,7 @@ def main():  # pragma: no cover
     reso = 5.0
     planning_animation(ox, oy, reso)
 
-    plt.show()
+    # plt.show()
 
     print("done!!")
 

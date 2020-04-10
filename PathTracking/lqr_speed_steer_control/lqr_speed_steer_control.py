@@ -28,7 +28,7 @@ dt = 0.1  # time tick[s]
 L = 0.5  # Wheel base of the vehicle [m]
 max_steer = np.deg2rad(45.0)  # maximum steering angle[rad]
 
-show_animation = True
+show_animation = False
 
 
 class State:

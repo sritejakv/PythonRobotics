@@ -33,7 +33,7 @@ ALPHA = 0.001
 BETA = 2
 KAPPA = 0
 
-show_animation = True
+show_animation = False
 
 
 def calc_input():

@@ -27,7 +27,7 @@ MAX_RANGE = 20.0  # maximum observation range
 NP = 100  # Number of Particle
 NTh = NP / 2.0  # Number of particle for re-sampling
 
-show_animation = True
+show_animation = False
 
 
 def calc_input():

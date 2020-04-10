@@ -17,7 +17,7 @@ from scipy.integrate import quad
 
 # NOTE: *_pose is a 3-array: 0 - x coord, 1 - y coord, 2 - orientation angle \theta
 
-show_animation = True
+show_animation = False
 
 
 class eta3_path(object):
@@ -189,7 +189,7 @@ class eta3_path_segment(object):
         return self.coeffs[:, 2:].dot(np.array([2, 6. * u, 12. * u**2, 20. * u**3, 30. * u**4, 42. * u**5]))
 
 
-def test1():
+def one():
 
     for i in range(10):
         path_segments = []
@@ -222,7 +222,7 @@ def test1():
         plt.close("all")
 
 
-def test2():
+def two():
 
     for i in range(10):
         path_segments = []
@@ -252,7 +252,7 @@ def test2():
         plt.close("all")
 
 
-def test3():
+def three():
     path_segments = []
 
     # segment 1: lane-change curve
@@ -322,9 +322,9 @@ def main():
     """
     recreate path from reference (see Table 1)
     """
-    test1()
-    test2()
-    test3()
+    one()
+    two()
+    three()
 
 
 if __name__ == '__main__':

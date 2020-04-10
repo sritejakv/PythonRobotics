@@ -13,7 +13,7 @@ import random
 # k means parameters
 MAX_LOOP = 10
 DCOST_TH = 0.1
-show_animation = True
+show_animation = False
 
 
 def kmeans_clustering(rx, ry, nc):

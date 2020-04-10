@@ -232,7 +232,7 @@ def main():  # pragma: no cover
     plt.xlabel("line length[m]")
     plt.ylabel("curvature [1/m]")
 
-    plt.show()
+    # plt.show()
 
 
 if __name__ == '__main__':  # pragma: no cover

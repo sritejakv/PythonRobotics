@@ -94,14 +94,14 @@ def generate_lookup_table():
     for table in lookuptable:
         xc, yc, yawc = motion_model.generate_trajectory(
             table[3], table[4], table[5], k0)
-        plt.plot(xc, yc, "-r")
+        # plt.plot(xc, yc, "-r")
         xc, yc, yawc = motion_model.generate_trajectory(
             table[3], -table[4], -table[5], k0)
-        plt.plot(xc, yc, "-r")
+        # plt.plot(xc, yc, "-r")
 
     plt.grid(True)
     plt.axis("equal")
-    plt.show()
+    # plt.show()
 
     print("Done")
 

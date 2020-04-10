@@ -24,7 +24,7 @@ try:
 except ImportError:
     raise
 
-show_animation = True
+show_animation = False
 
 
 class RRTDubins(RRT):

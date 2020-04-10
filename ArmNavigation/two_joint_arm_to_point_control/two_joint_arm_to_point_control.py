@@ -25,7 +25,7 @@ l1 = l2 = 1
 x = 2
 y = 0
 
-show_animation = True
+show_animation = False
 
 if show_animation:
     plt.ion()
@@ -83,8 +83,8 @@ def plot_arm(theta1, theta2, x, y):  # pragma: no cover
         plt.xlim(-2, 2)
         plt.ylim(-2, 2)
 
-        plt.show()
-        plt.pause(dt)
+        # plt.show()
+        # plt.pause(dt)
 
     return wrist
 

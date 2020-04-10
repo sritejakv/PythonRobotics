@@ -21,7 +21,7 @@ from scipy.stats import norm
 
 # Parameters
 EXTEND_AREA = 10.0  # [m] grid map extended length
-SIM_TIME = 50.0  # simulation time [s]
+SIM_TIME = 5.0  # simulation time [s]
 DT = 0.1  # time tick [s]
 MAX_RANGE = 10.0  # maximum observation range
 MOTION_STD = 1.0  # standard deviation for motion gaussian distribution
@@ -38,7 +38,7 @@ MAXY = 25.0
 NOISE_RANGE = 2.0  # [m] 1σ range noise parameter
 NOISE_SPEED = 0.5  # [m/s] 1σ speed noise parameter
 
-show_animation = True
+show_animation = False
 
 
 class GridMap():

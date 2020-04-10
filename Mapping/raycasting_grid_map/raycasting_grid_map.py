@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 EXTEND_AREA = 10.0
 
-show_animation = True
+show_animation = False
 
 
 def calc_grid_map_config(ox, oy, xyreso):

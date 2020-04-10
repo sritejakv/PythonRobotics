@@ -159,16 +159,6 @@ def astar_torus(grid, start_node, goal_node):
             route.insert(0, parent_map[route[0][0]][route[0][1]])
 
         print("The route found covers %d grid cells." % len(route))
-        for i in range(1, len(route)):
-            grid[route[i]] = 6
-            plt.cla()
-            # for stopping simulation with the esc key.
-            plt.gcf().canvas.mpl_connect('key_release_event',
-                    lambda event: [exit(0) if event.key == 'escape' else None])
-            plt.imshow(grid, cmap=cmap, norm=norm, interpolation=None)
-            plt.show()
-            plt.pause(1e-2)
-
     return route
 
 
@@ -260,8 +250,8 @@ class NLinkArm(object):
 
         plt.xlim([-self.lim, self.lim])
         plt.ylim([-self.lim, self.lim])
-        plt.draw()
-        plt.pause(1e-5)
+        # plt.draw()
+        # plt.pause(1e-5)
 
 
 if __name__ == '__main__':

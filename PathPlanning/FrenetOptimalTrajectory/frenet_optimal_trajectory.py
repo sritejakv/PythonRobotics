@@ -52,7 +52,7 @@ KD = 1.0
 KLAT = 1.0
 KLON = 1.0
 
-show_animation = True
+show_animation = False
 
 
 class quartic_polynomial:

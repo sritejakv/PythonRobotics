@@ -56,10 +56,10 @@ def animate(grid, arm, route):
         arm.plot_arm(plt, obstacles=obstacles)
         plt.xlim(-2.0, 2.0)
         plt.ylim(-3.0, 3.0)
-        plt.show()
+        # plt.show()
         # Uncomment here to save the sequence of frames
         # plt.savefig('frame{:04d}.png'.format(i))
-        plt.pause(0.1)
+        # plt.pause(0.1)
 
 
 def detect_collision(line_seg, circle):
@@ -197,8 +197,8 @@ def astar_torus(grid, start_node, goal_node):
             plt.gcf().canvas.mpl_connect('key_release_event',
                     lambda event: [exit(0) if event.key == 'escape' else None])
             plt.imshow(grid, cmap=cmap, norm=norm, interpolation=None)
-            plt.show()
-            plt.pause(1e-2)
+            # plt.show()
+            # plt.pause(1e-2)
 
     return route
 

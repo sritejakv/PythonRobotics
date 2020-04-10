@@ -34,7 +34,7 @@ STEER_CHANGE_COST = 5.0  # steer angle change penalty cost
 STEER_COST = 1.0  # steer angle change penalty cost
 H_COST = 5.0  # Heuristic cost
 
-show_animation = True
+show_animation = False
 
 
 class Node:
@@ -331,7 +331,8 @@ def hybrid_a_star_planning(start, goal, ox, oy, xyreso, yawreso):
             plt.gcf().canvas.mpl_connect('key_release_event',
                     lambda event: [exit(0) if event.key == 'escape' else None])
             if len(closedList.keys()) % 10 == 0:
-                plt.pause(0.001)
+                # plt.pause(0.001)
+                pass
 
         isupdated, fpath = update_node_with_analystic_expantion(
             current, ngoal, config, ox, oy, obkdtree)
@@ -458,7 +459,7 @@ def main():
         plt.grid(True)
         plt.axis("equal")
         plot_car(ix, iy, iyaw)
-        plt.pause(0.0001)
+        # plt.pause(0.0001)
 
     print(__file__ + " done!!")
 

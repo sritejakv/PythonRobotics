@@ -20,7 +20,7 @@ try:
 except ImportError:
     raise
 
-show_animation = True
+show_animation = False
 
 
 def get_path_length(path):

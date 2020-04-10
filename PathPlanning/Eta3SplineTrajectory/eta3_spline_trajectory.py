@@ -23,7 +23,7 @@ try:
 except:
     raise
 
-show_animation = True
+show_animation = False
 
 
 class MaxVelocityNotReached(Exception):
@@ -291,7 +291,7 @@ class eta3_trajectory(eta3_path):
         return state
 
 
-def test1(max_vel=0.5):
+def one(max_vel=0.5):
 
     for i in range(10):
         trajectory_segments = []
@@ -323,7 +323,7 @@ def test1(max_vel=0.5):
         plt.close("all")
 
 
-def test2(max_vel=0.5):
+def two(max_vel=0.5):
 
     for i in range(10):
         trajectory_segments = []
@@ -357,7 +357,7 @@ def test2(max_vel=0.5):
         plt.close("all")
 
 
-def test3(max_vel=2.0):
+def three(max_vel=2.0):
     trajectory_segments = []
 
     # segment 1: lane-change curve
@@ -453,7 +453,7 @@ def main():
     """
     # test1()
     # test2()
-    test3()
+    three()
 
 
 if __name__ == '__main__':

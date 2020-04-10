@@ -12,7 +12,7 @@ from enum import Enum
 import matplotlib.pyplot as plt
 import numpy as np
 
-show_animation = True
+show_animation = False
 
 
 def dwa_control(x, config, goal, ob):
@@ -292,7 +292,7 @@ def main(gx=10.0, gy=10.0, robot_type=RobotType.circle):
         plt.plot(trajectory[:, 0], trajectory[:, 1], "-r")
         plt.pause(0.0001)
 
-    plt.show()
+    # plt.show()
 
 
 if __name__ == '__main__':

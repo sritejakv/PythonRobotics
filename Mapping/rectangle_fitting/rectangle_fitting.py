@@ -16,7 +16,7 @@ from enum import Enum
 
 from simulator import VehicleSimulator, LidarSimulator
 
-show_animation = True
+show_animation = False
 
 
 class LShapeFitting():

@@ -25,7 +25,7 @@ MAX_RANGE = 20.0  # maximum observation range
 # Ensemble Kalman filter parameter
 NP = 20  # Number of Particle
 
-show_animation = True
+show_animation = False
 
 
 def calc_input():

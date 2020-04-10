@@ -49,7 +49,7 @@ def main():
     plt.grid(True)
     plt.legend()
     plt.axis("equal")
-    plt.show()
+    # plt.show()
 
 
 if __name__ == '__main__':

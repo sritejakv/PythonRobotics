@@ -82,7 +82,7 @@ class NLinkArm:
             self.ax.set_ylim(-1, 1)
             self.ax.set_zlim(-1, 1)
   
-            plt.show()
+            # plt.show()
 
         return [x, y, z, alpha, beta, gamma]
 
@@ -141,7 +141,7 @@ class NLinkArm:
             self.ax.set_zlim(-1, 1)
   
             self.ax.plot([ref_ee_pose[0]], [ref_ee_pose[1]], [ref_ee_pose[2]], "o")
-            plt.show()
+            # plt.show()
                 
     def euler_angle(self):
         trans = self.transformation_matrix()
@@ -193,4 +193,4 @@ class NLinkArm:
         self.ax.set_xlim(-1, 1)
         self.ax.set_ylim(-1, 1)
         self.ax.set_zlim(-1, 1)        
-        plt.show()
+        # plt.show()

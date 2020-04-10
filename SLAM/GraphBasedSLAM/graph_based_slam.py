@@ -34,7 +34,7 @@ C_SIGMA3 = np.deg2rad(1.0)
 MAX_ITR = 20  # Maximum iteration
 
 show_graph_dtime = 20.0  # [s]
-show_animation = True
+show_animation = False
 
 
 class Edge():

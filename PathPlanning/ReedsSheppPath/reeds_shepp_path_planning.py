@@ -10,7 +10,7 @@ import math
 import matplotlib.pyplot as plt
 import numpy as np
 
-show_animation = True
+show_animation = False
 
 
 class Path:
@@ -374,7 +374,7 @@ def reeds_shepp_path_planning(sx, sy, syaw,
     return bpath.x, bpath.y, bpath.yaw, bpath.ctypes, bpath.lengths
 
 
-def test():
+def pre_run():
 
     NTEST = 5
 
@@ -451,5 +451,5 @@ def main():
 
 
 if __name__ == '__main__':
-    test()
+    pre_run()
     main()

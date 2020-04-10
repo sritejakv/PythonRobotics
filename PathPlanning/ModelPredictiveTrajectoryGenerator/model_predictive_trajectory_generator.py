@@ -18,7 +18,7 @@ max_iter = 100
 h = np.array([0.5, 0.02, 0.02]).T  # parameter sampling distance
 cost_th = 0.1
 
-show_animation = True
+show_animation = False
 
 
 def plot_arrow(x, y, yaw, length=1.0, width=0.5, fc="r", ec="k"):  # pragma: no cover
@@ -132,7 +132,7 @@ def optimize_trajectory(target, k0, p):
     return xc, yc, yawc, p
 
 
-def test_optimize_trajectory():  # pragma: no cover
+def run_optimize_trajectory():  # pragma: no cover
 
     #  target = motion_model.State(x=5.0, y=2.0, yaw=np.deg2rad(00.0))
     target = motion_model.State(x=5.0, y=2.0, yaw=np.deg2rad(90.0))
@@ -152,7 +152,7 @@ def test_optimize_trajectory():  # pragma: no cover
 
 def main():  # pragma: no cover
     print(__file__ + " start!!")
-    test_optimize_trajectory()
+    run_optimize_trajectory()
 
 
 if __name__ == '__main__':

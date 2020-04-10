@@ -68,8 +68,8 @@ class NLinkArm(object):
 
         plt.xlim([-self.lim, self.lim])
         plt.ylim([-self.lim, self.lim])
-        plt.draw()
-        plt.pause(0.0001)
+        # plt.draw()
+        # plt.pause(0.0001)
 
     def click(self, event):
         self.goal = np.array([event.xdata, event.ydata]).T

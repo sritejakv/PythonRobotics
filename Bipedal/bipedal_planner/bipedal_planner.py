@@ -171,4 +171,4 @@ if __name__ == "__main__":
                  [0.3, 0.2, 0.2],
                  [0.0, 0.2, 0.2]]
     bipedal_planner.set_ref_footsteps(footsteps)
-    bipedal_planner.walk(plot=True)
+    bipedal_planner.walk(plot=False)

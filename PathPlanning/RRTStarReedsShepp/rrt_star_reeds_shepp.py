@@ -25,7 +25,7 @@ try:
 except ImportError:
     raise
 
-show_animation = True
+show_animation = False
 
 
 class RRTStarReedsShepp(RRTStar):
@@ -226,7 +226,7 @@ class RRTStarReedsShepp(RRTStar):
         return path
 
 
-def main(max_iter=100):
+def main(max_iter=50):
     print("Start " + __file__)
 
     # ====Search Path with RRT====

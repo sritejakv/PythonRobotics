@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import scipy.linalg as la
 
-SHOW_ANIMATION = True
+SHOW_ANIMATION = False
 
 
 class LQRPlanner:
